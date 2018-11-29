@@ -16,22 +16,6 @@ public class Name{
 		return x;
 	}
 
-	public static void main(String[]args){
-
-		System.out.println("Bridget");
-		System.out.println("Suchit");
-
-		ArrayList<Integer> list1 = new ArrayList<>();
-
-		for(int i = 0; i < 10; i++){
-			list1.add(i);
-		}
-
-		System.out.println(listToInt(list1));
-
-	System.out.println(split(12345));
-	}
-
 	public static ArrayList split(int num){
 		ArrayList <Integer> splitList = new ArrayList<>();
 		int hi = num;
@@ -49,4 +33,21 @@ public class Name{
 		}
 		return list2;
 	} //split
+
+	public static void main(String[]args){
+
+		System.out.println("Bridget");
+		System.out.println("Suchit");
+
+		ArrayList<Integer> list1 = new ArrayList<>();
+
+		for(int i = 0; i < 10; i++){
+			list1.add(i);
+		}
+
+		System.out.println(listToInt(list1));
+
+	System.out.println(split(12345));
+	}
+
 }
